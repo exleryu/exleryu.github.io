@@ -1,0 +1,44 @@
+@import '_layout';
+
+
+.fa-fw  {
+    
+    padding: 10px;
+}
+
+.search { 
+
+    .search-input {
+        border: 0px;
+        border-bottom: 1px solid #555; 
+        outline: none;
+        width: 200px;
+        height: 30px;
+    }
+
+    .email-input {
+        border: 1px solid #747474;
+        outline: none;
+        width: 350px;
+        height: 40px;
+        margin: 0 40px;
+    }
+
+}
+
+.border-small {
+    border: 1px solid $border-color;
+    width: 15vw;
+    margin-bottom: 80px;
+    margin-top: 0;
+}
+
+.border-large {
+    border: 1px solid $border-color;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+fas:hover {
+    color: $hover-color !important;
+}
